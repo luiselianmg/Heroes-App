@@ -1,0 +1,9 @@
+<h2 mat-dialog-title>Seguro que desea eliminar a {{data.superhero}}?</h2>
+<mat-dialog-content>
+  <p>El proceso no es reversible</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()" color="primary">No</button>
+  <span class="spacer"></span>
+  <button mat-button (click)="onConfirm()"  color="warn">Si</button>
+</mat-dialog-actions>
